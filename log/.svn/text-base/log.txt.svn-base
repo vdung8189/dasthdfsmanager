@@ -1,0 +1,10 @@
+2012-04-17 13:11:42,334 0    [main] INFO  - create directory hdfs://localhost:9000/tmp/test1/wuhuayang/789 successed. 
+2012-04-17 13:14:00,504 0    [main] INFO  - create directory hdfs://localhost:9000/tmp/test1/hello2/111 successed. 
+2012-04-17 13:39:37,815 0    [main] INFO  - create directory hdfs://localhost:9000/tmp/test1/wuhuayang/333 successed. 
+2012-04-17 13:41:02,087 0    [main] INFO  - delete HDFS file hdfs://localhost:9000/tmp/test1/wuhuayang/111 successed. 
+2012-04-17 13:41:32,466 30379 [main] INFO  - upload C:\Users\awu\Desktop\Dist20111230-2.rar to  hdfs://localhost:9000/tmp/test1/wuhuayang/222 successed. 
+2012-04-17 14:01:46,670 0    [main] INFO  - delete HDFS file hdfs://localhost:9000/tmp/test1/1234 successed. 
+2012-04-17 14:01:54,649 7979 [main] INFO  - delete HDFS file hdfs://localhost:9000/tmp/test1/hello2/111 successed. 
+2012-04-17 14:01:57,950 11280 [main] INFO  - delete HDFS file hdfs://localhost:9000/tmp/test1/test2/321 successed. 
+2012-04-17 14:02:01,505 14835 [main] INFO  - delete HDFS file hdfs://localhost:9000/tmp/test1/wuhuayang/222 successed. 
+2012-04-17 14:02:03,977 17307 [main] INFO  - delete HDFS file hdfs://localhost:9000/tmp/test1/wuhuayang/333 successed. 

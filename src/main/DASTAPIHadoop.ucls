@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.5" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="org.esiag.isidis.dast.hdfs.api.HDFSLauncher" project="DASTAPI Hadoop" 
+    file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/api/HDFSLauncher.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="122" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.esiag.isidis.dast.hdfs.api.DistributedFileManager" project="DASTAPI Hadoop" 
+    file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/api/DistributedFileManager.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="348" y="124"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.esiag.isidis.dast.hdfs.log.Log" project="DASTAPI Hadoop" 
+    file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/log/Log.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="138" y="268"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.esiag.isidis.dast.hdfs.ui.HDFSExplorer.FileTreeLabelProvider" 
+    project="DASTAPI Hadoop" file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/ui/HDFSExplorer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="187" width="237" x="524" y="203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.esiag.isidis.dast.hdfs.ui.HDFSExplorer.FileTreeContentProvider" 
+    project="DASTAPI Hadoop" file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/ui/HDFSExplorer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="187" width="222" x="801" y="203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="org.esiag.isidis.dast.hdfs.ui.HDFSExplorer" project="DASTAPI Hadoop" 
+    file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/ui/HDFSExplorer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="187" width="196" x="1063" y="-24"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="org.esiag.isidis.dast.hdfs.ui.HDFSExplorer.FileSorter" project="DASTAPI Hadoop" 
+    file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/ui/HDFSExplorer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="124" x="1063" y="203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="org.esiag.isidis.dast.hdfs.ui.HDFSExplorer.FileTableContentProvider" 
+    project="DASTAPI Hadoop" file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/ui/HDFSExplorer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="133" width="222" x="1227" y="203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="org.esiag.isidis.dast.hdfs.ui.HDFSExplorer.FileTableLabelProvider" 
+    project="DASTAPI Hadoop" file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/ui/HDFSExplorer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="187" width="237" x="1489" y="203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="org.esiag.isidis.dast.hdfs.utils.Configuration" project="DASTAPI Hadoop" 
+    file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/utils/Configuration.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="758" y="70"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="org.esiag.isidis.dast.hdfs.utils.ConfigurationReader" project="DASTAPI Hadoop" 
+    file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/utils/ConfigurationReader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="950" y="63"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="org.esiag.isidis.dast.hdfs.actionListener.MyActionGroup.SelectAction" 
+    project="DASTAPI Hadoop" 
+    file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/actionListener/MyActionGroup.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="181" y="714"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="org.esiag.isidis.dast.hdfs.actionListener.MyActionGroup" project="DASTAPI Hadoop" 
+    file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/actionListener/MyActionGroup.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="989" y="532"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="org.esiag.isidis.dast.hdfs.actionListener.MyActionGroup.NewAction" 
+    project="DASTAPI Hadoop" 
+    file="/DASTAPI Hadoop/src/main/java/org/esiag/isidis/dast/hdfs/actionListener/MyActionGroup.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1726" y="696"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="15">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <nesting id="16">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <nesting id="17">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <association id="18">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="19" name="config"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="21">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <nesting id="22">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </nesting>  
+  <nesting id="23">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <nesting id="24">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </nesting>  
+  <association id="25">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="26" name="conf"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="28">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="29" name="conf"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
