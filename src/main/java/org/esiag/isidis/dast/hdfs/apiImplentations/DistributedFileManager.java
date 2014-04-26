@@ -1,59 +1,67 @@
 package org.esiag.isidis.dast.hdfs.apiImplentations;
 
-import java.io.*;
 
-import org.apache.hadoop.conf.Configuration;
+import java.io.IOException;
+
 import org.apache.hadoop.fs.FSDataOutputStream;
 import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.fs.RemoteIterator;
+import org.esiag.isidis.dast.hdfs.api.IBigFileManager;
 import org.esiag.isidis.dast.hdfs.api.IDistributedFileManager;
+import org.esiag.isidis.dast.hdfs.api.ISmallFileManager;
 import org.esiag.isidis.dast.hdfs.log.Log;
+import org.esiag.isidis.dast.hdfs.utils.MyHDFSClient;
 //import org.esiag.isidis.dast.hdfs.utils.ConfigurationReader;
 
 
 /***
- * HDFS Client API. (Hadoop Distributed File System)
- * @author NGUYEN Viet Dung vietdung.nguyen@orange.fr
+ * Implementation of IDistributedFileManager interface
+ * @author Viet Dung NGUYEN
  */
 public class DistributedFileManager implements IDistributedFileManager {
-	 /**
-     *  Get the file system for the configuration of the program.
-     * @param ip
-     * @param port
-     */  
-	/*public synchronized FileSystem getFileSystem(ConfigurationReader conf) {
-		FileSystem hdfs = null;
-		String url = ConfigurationReader.loadconfig().getConnString();
-		Configuration config = new Configuration();
-		config.set("fs.default.name", url);
-		try {
-			hdfs = FileSystem.get(config);
-		} catch (Exception e) {
-			Log.logger.error(" getFileSystem failed :"+e.toString());
-		}
-		return hdfs;
-	}
-*/
+	
+	protected FileSystem fs = null;
 	/**
-     * Create HDSF File
-     *  
-     * @param hdfs 
-     * @param path 
-     * @param data 
-     */  
-	public synchronized  void createHDFSFile(FileSystem hdfs, String newFilepath, String data) {  
-		Path dstPath = new Path(newFilepath);  
-		try {  	
-		     FSDataOutputStream os = hdfs.create(dstPath);  
-		     os.writeUTF(data);  
-		     os.close();
-		     Log.logger.info("write data to " + newFilepath + " successed. ");  
-		} catch (Exception e) {  
-			 Log.logger.error("write data to " + newFilepath + " failed."+e.toString());  
-		}  
-	}  
+	 * bigFileManager instance
+	 */
+	private static IBigFileManager bigFileManager = null;
+	
+	/**
+	 * smallFileManager instance
+	 */
+	private static ISmallFileManager smallFileManager = null;
+
+	/**
+	 * DistributedFileManager default constructor
+	 */
+	
+	public DistributedFileManager(){
+		fs = MyHDFSClient.getInstance().getFileSystem();
+	}
+	
+	/**
+	 * get the bigFileManager instance to deal with big file 
+	 * @return the bigFileManager instance
+	 */
+	public IBigFileManager dealWithBigFile(){
+		if(bigFileManager == null){
+			bigFileManager = new IBigFileManagerImpl();
+		}
+		return bigFileManager;
+	}
+	
+
+	/**
+	 * get the smallFileManager instance to deal with small file 
+	 * @return the bigFileManager instance
+	 */
+	public ISmallFileManager dealWithSmallFile(){
+		if (smallFileManager == null){
+			smallFileManager = new ISmallFileManagerImpl();
+		}
+		return smallFileManager;
+	}
 	
 	 /** 
 	  * Create a new directory in HDFS File System
@@ -61,11 +69,9 @@ public class DistributedFileManager implements IDistributedFileManager {
 	  * @param hdfs 
 	  * @param dirName 
 	  */  
-	public synchronized  void mkdirs(FileSystem hdfs, String dirName) {
+	public synchronized  void mkdirs(String dirName) throws IOException{
     	try {
-    		Path src = new Path(dirName);
-    		boolean succes = hdfs.mkdirs(src);  
-	         if (succes) {  
+	         if (fs.mkdirs(new Path(dirName))) {  
 	        	 Log.logger.info("create directory " + dirName + " successed. ");  
 	         } else {  
 	        	 Log.logger.error("create directory " + dirName + " failed. ");  
@@ -81,83 +87,49 @@ public class DistributedFileManager implements IDistributedFileManager {
      * @param hdfs 
      * @param fileToDelete
      */  
-	public synchronized  void deleteHDFSFile(FileSystem hdfs, String fileToDelete) {  
-        Path pathToDelete = new Path(fileToDelete); 
+	
+	public synchronized  void deleteHDFSFile(String fileToDelete) throws IOException{  
+		
         try {
-        	if (hdfs.delete(pathToDelete, true)) {
-        		Log.logger.info("delete HDFS file " + pathToDelete + " successed. "); 
+        	if (fs.delete(new Path(fileToDelete), true)) {
+        		Log.logger.info("delete HDFS file " + fileToDelete + " successed. "); 
         	} else{
-        		 Log.logger.error("delete HDFS file " + pathToDelete + " failed. "); 
+        		 Log.logger.error("delete HDFS file " + fileToDelete + " failed. "); 
         	}
         } catch (Exception e) {  
-        	Log.logger.error("delete HDFS file " + pathToDelete + " failed :"+e.toString());
+        	Log.logger.error("delete HDFS file " + fileToDelete + " failed :"+e.toString());
      	}
 	 }  
-	
-	 /**
-     * Upload a local file to HDFS
-     *   
-     * @param hdfs 
-     * @param srcFile 
-     * @param dstFile 
-     */     
-	public synchronized  void uploadFileToHDFS(FileSystem hdfs, String srcFile,
-			String dstFile) throws IOException {
-		Path srcPath = new Path(srcFile);
-		Path dstPath = new Path(dstFile);
-	    try {  
-		 hdfs.copyFromLocalFile(false, true, srcPath, dstPath); 
-		 Log.logger.info("upload " + srcFile + " to  " + dstFile + " successed. ");  
-	 } catch (Exception e) {  
-		 Log.logger.error("upload " + srcFile + " to  " + dstFile + " failed :"+e.toString());   
-		 }  
 
-		//InputStream in = new BufferedInputStream(new FileInputStream(srcFile));
+	
+	
+	/**
+	 * List files
+	 */
+	public void listFile(String path) {
 
-	}    
-	
-	/** 
-	* Download a file from HDFS to local system
-	*  
-	* @param hdfs 
-	* @param localPath 
-	* @param remotePath 
-	*/  
-	public synchronized  void downloadFileFromHDFS(FileSystem fs, String localPath,  
-	String remotePath) {    
-	        Path dstPath = new Path(remotePath);  
-	        Path srcPath = new Path(localPath);  
-	        try {  
-	            fs.copyToLocalFile(false, dstPath, srcPath);  
-	            Log.logger.info("download from " + remotePath + " to  " + localPath  
-	                    + " successed. ");  
-	        } catch (Exception e) {  
-	        	Log.logger.error("download from " + remotePath + " to  " + localPath + " failed :"+e.toString());  
-	        }  
-	    }  
-	
-	public synchronized  void listFile(FileSystem hdfs, String path) {
-		
-		Path dst;
+		Path dst = null;
 		
 		if (null == path || "".equals(path)) {
 			dst = new Path(path);
 		} else {
 			dst = new Path(path);
 		}
+		
 		try {
 			String relativePath = "";
-			FileStatus[] fList = hdfs.listStatus(dst);
+			
+			FileStatus[] fList = fs.listStatus(dst);
+			
 			for (FileStatus f : fList) {
 				if (null != f) {
 					relativePath = new StringBuffer().append(
 							f.getPath().getParent()).append("/").append(
 							f.getPath().getName()).toString();
 					if (f.isDirectory()) {
-						listFile(hdfs, relativePath);
+						listFile(relativePath);
 					} else {
-						Log.logger.info(convertSize(f.getLen()) + "/t/t"
-								+ relativePath);
+						Log.logger.info(convertSize(f.getLen()) + "/t/t"+ relativePath);
 					}
 				}
 			}
@@ -166,9 +138,10 @@ public class DistributedFileManager implements IDistributedFileManager {
 		} finally {
 		}
 	}
+
 	
 	/**
-	 * Convert size from byte to kilobyte, mégabyte or gigabyte
+	 * Convert size from byte to KB, MB, GB
 	 * @param size
 	 * @return result
 	 */
@@ -186,17 +159,4 @@ public class DistributedFileManager implements IDistributedFileManager {
 		return result;
 	}
 
-	@Override
-	public RemoteIterator<byte[]> readFile(String fileLocation)
-			throws Exception {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public RemoteIterator<Void> writeFile(File file, String StringFileLocation)
-			throws Exception {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }

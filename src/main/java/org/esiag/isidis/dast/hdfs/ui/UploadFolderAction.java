@@ -6,12 +6,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.hadoop.fs.FileStatus;
+import org.apache.hadoop.fs.RemoteIterator;
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.DirectoryDialog;
 import org.eclipse.swt.widgets.Display;
 import org.esiag.isidis.dast.hdfs.api.IDistributedFileManager;
+import org.esiag.isidis.dast.hdfs.api.ISmallFileManager;
+import org.esiag.isidis.dast.hdfs.ui.UploadFileAction.UploadFileActionThread;
 import org.esiag.isidis.dast.hdfs.utils.MyHDFSClient;
 /**
  * Upload an folder to HDFS 
@@ -20,6 +23,8 @@ import org.esiag.isidis.dast.hdfs.utils.MyHDFSClient;
  *
  */
 public class UploadFolderAction extends Action {
+	
+	private RemoteIterator<Void> remoteIterator = null;
 	private MyActionGroup actionGroup;
 	private IDistributedFileManager dfm;
 	
@@ -39,20 +44,47 @@ public class UploadFolderAction extends Action {
 			    final File dir = new File(dirName);
 			    List<File> files = new ArrayList<File>();
 			    files.add(dir);
-			    for (File file : files) {
-		              try {
-		            	Object selection = actionGroup.getTableSelection();
-		  				FileStatus f = (selection == null?
-		  						(FileStatus) actionGroup.getTreeSelection():
-		  							(FileStatus) actionGroup.getTableSelection());
-		                dfm.uploadFileToHDFS(MyHDFSClient.getInstance().getFs(), file.toString(),f.getPath().toString());
-		              } catch (IOException ioe) {
-		                ioe.printStackTrace();
-		                MessageDialog.openError(null,
-		                    "Erreur",
-		                    "Erreur.\n" + ioe);
-		              }
-		            }
-			    actionGroup.refresh();
+			    
+			    for (File fileLocal : files) {
+		              Object selection = actionGroup.getTableSelection();
+         
+					FileStatus f = (selection == null?
+							(FileStatus) actionGroup.getTreeSelection():
+								(FileStatus) actionGroup.getTableSelection());
+					
+				/*	long fileSize = f.getLen();
+
+					if (fileSize <= IDistributedFileManager.MAXI_SMALL_FILE){
+						ISmallFileManager smallDFM = dfm.dealWithSmallFile(); 
+						smallDFM.uploadSmallFileToHDFS(fileLocal.toString(),f.getPath().toString());
+					}else{*/
+						//TODO Big file 
+						String fileDest = f.getPath().toString() + "/" + fileLocal.getName();
+						remoteIterator = dfm.dealWithBigFile().writeFile(fileLocal, fileDest);
+						// Deal with big file
+						UploadFolderActionThread t = new UploadFolderActionThread();
+						t.start();
+					//}
+		         }
+			 
+		actionGroup.refresh();
+	}
+	
+	public class UploadFolderActionThread extends Thread{
+		public UploadFolderActionThread(){
+			
+		}
+		
+		@Override
+		public void run(){
+			try {
+				while(remoteIterator.hasNext()){
+					remoteIterator.next();
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+
 	}
 }

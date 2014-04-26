@@ -29,7 +29,6 @@ import org.esiag.isidis.dast.hdfs.api.IDistributedFileManager;
 public class MyActionGroup extends ActionGroup {
 	private TreeViewer treeViewer;
 	private TableViewer table;
-	//private ConfigurationReader conf;
 	private IDistributedFileManager dfm;
 
 	/**
@@ -60,10 +59,10 @@ public class MyActionGroup extends ActionGroup {
 	public void fillContextMenu(IMenuManager mgr) {
 		//Create the menu and add menu items.
 		MenuManager menuManager = (MenuManager) mgr;
-			menuManager.add(new DownloadAction(this,dfm));
+			menuManager.add(new DownloadAction(this, dfm));
 			menuManager.add(new CreateAction(this,dfm));
 			menuManager.add(new UploadFileAction(this,dfm));
-			menuManager.add(new UploadFolderAction(this,dfm));
+			//menuManager.add(new UploadFolderAction(this,dfm));
 			menuManager.add(new RefreshAction(this));
 			menuManager.add(new DeleteAction(this, dfm));
 	
@@ -122,7 +121,7 @@ public class MyActionGroup extends ActionGroup {
 			super();
 		    setText("Nouveau");
 		    this.setAccelerator( SWT.ALT + SWT.SHIFT + 'N');
-		    setToolTipText("�½�");
+		    setToolTipText("");
 		    setImageDescriptor(ImageDescriptor.createFromFile(NewAction.class,"icons\\new.gif"));
 		}
 	}

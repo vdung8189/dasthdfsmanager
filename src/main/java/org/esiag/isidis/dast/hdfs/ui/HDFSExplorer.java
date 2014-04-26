@@ -9,6 +9,7 @@ import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.eclipse.jface.action.MenuManager;
+import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.jface.viewers.*;
 import org.eclipse.jface.window.ApplicationWindow;
 import org.eclipse.swt.SWT;
@@ -29,14 +30,13 @@ import org.esiag.isidis.dast.hdfs.utils.MyHDFSClient;
  * @category GUI
  */
 public class HDFSExplorer extends ApplicationWindow {
-	
 	private SashForm sash = null ;
 	private TreeViewer tree = null;
 	private TableViewer table = null;
-	//private ConfigurationReader conf;
 	private MyActionGroup actionGroup = null ;
 	private IDistributedFileManager dfm = null; 
 	private FileSystem fs = null;
+	private ProgressBar progressBar = null; 
 
 	public HDFSExplorer() {
 		super(null);
@@ -48,9 +48,7 @@ public class HDFSExplorer extends ApplicationWindow {
 	 * Create the GUI (like as InitializeComponents of Swing)
 	 */
 	protected Control createContents(Composite parent) {
-		
 		//Set title for the main windows
-		 
 		getShell().setText("[DAST v2.0]  Interface Hadoop Manager");
 		// set default size
 		getShell().setSize(965, 684);
@@ -60,7 +58,10 @@ public class HDFSExplorer extends ApplicationWindow {
 		sash.setLayoutData(new GridData(GridData.FILL_BOTH));
 		tree = new TreeViewer(sash);
 		table = new TableViewer(sash);
-		sash.setWeights(new int[] { 30, 70 });
+		progressBar = new ProgressBar(sash, SWT.VERTICAL);
+		progressBar.setMinimum(0);
+		progressBar.setMaximum(100);
+		sash.setWeights(new int[] { 25, 73, 2});
 		
 		init();
 		
@@ -72,7 +73,8 @@ public class HDFSExplorer extends ApplicationWindow {
 		// Pass tree and table to actionGroup. 
 		//This will set listener to actions done within the UI
 		dfm = new DistributedFileManager();
-		fs = MyHDFSClient.getInstance().getFs();
+		
+		fs = MyHDFSClient.getInstance().getFileSystem();
 		actionGroup = new MyActionGroup(tree,table,dfm);
 		actionGroup.fillContextMenu(new MenuManager());
 	
@@ -99,8 +101,23 @@ public class HDFSExplorer extends ApplicationWindow {
 		table.setContentProvider(new FileTableContentProvider());
 		table.setLabelProvider(new FileTableLabelProvider());
 		table.setSorter(new FileSorter());
-		
-		
+	}
+	
+	public void setPercentage(final int value) {
+		Display.getDefault().asyncExec(new Runnable() {
+		    public void run() {
+				progressBar.setSelection(value);
+		    }
+		});
+		//progressBar.setSelection(value);
+	}
+	
+	public void showMessage(final String title, final String message) {
+		Display.getDefault().asyncExec(new Runnable() {
+		    public void run() {
+				MessageDialog.openInformation(getShell(), title, message);
+		    }
+		});
 	}
 
 	/**
@@ -120,7 +137,6 @@ public class HDFSExplorer extends ApplicationWindow {
 		public Object[] getElements(Object element) {
 			Path path = (Path) element;
 			try {
-				
 				FileStatus[] fList = fs.listStatus(path);
 				List<FileStatus> rootFolders = new ArrayList<FileStatus>();
 				for (FileStatus f : fList) {  

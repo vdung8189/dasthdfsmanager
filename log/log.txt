@@ -330,3 +330,139 @@
 2014-04-14 19:15:54,745 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 2014-04-14 19:17:11,753 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 2014-04-14 19:17:24,230 12477 [main] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/R3/Downloads/200707hourly.txt successed. 
+2014-04-16 17:19:45,281 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-17 11:51:40,719 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-17 11:54:13,889 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-17 12:10:49,702 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-17 12:11:05,005 15304 [main] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/R3/Downloads/200707dailyavg.txt successed. 
+2014-04-17 12:11:17,057 27356 [main] INFO  - download from hdfs://localhost:8020/user/hadoop/R3/Downloads/apache-maven-3.2.1-bin.tar.gz to  /home/hadoop/workspace/ComplВments/chapitre9/chapitre9 successed. 
+2014-04-22 18:42:39,107 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-22 18:43:42,979 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-22 18:44:23,604 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-22 18:46:51,957 148353 [main] INFO  - download from hdfs://localhost:8020/user/hadoop/R3/Downloads/COM M2  ISIDIS 23.xls to  /home/hadoop/temp successed. 
+2014-04-22 20:53:27,330 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-22 20:55:17,522 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-22 20:55:36,336 18814 [main] INFO  - download from hdfs://localhost:8020/user/hadoop/R3/Downloads/[PRO]Viet_Dung_NGUYEN_V1.4 (1).pdf to  /home/hadoop/temp successed. 
+2014-04-22 21:17:49,171 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-22 21:30:54,613 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-22 22:03:49,058 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 11:08:25,367 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:07:20,925 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:09:10,738 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:21:44,620 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:25:19,617 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:27:28,510 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:35:29,726 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:36:50,922 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:41:22,092 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:43:38,619 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:45:42,333 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:47:58,216 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:53:45,139 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:56:45,495 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:58:38,577 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:59:22,444 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 12:59:25,775 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 13:02:15,965 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 13:13:56,685 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 13:14:12,402 15717 [Thread-4] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/R3/Downloads/[PRO]Viet_Dung_NGUYEN_V1.4.pdf successed. 
+2014-04-23 13:50:26,052 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 13:57:33,620 427568 [main] INFO  - create directory hdfs://localhost:8020/user/hadoop/R3/DFS/TestUpload successed. 
+2014-04-23 14:02:46,692 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 14:05:22,781 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 14:09:09,197 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 14:09:27,322 18125 [main] INFO  - upload /home/hadoop/Desktop/DSC_1865.JPG to  hdfs://localhost:8020/user successed. 
+2014-04-23 14:10:08,545 59348 [main] INFO  - upload /home/hadoop/Desktop/DSC_1865.JPG to  hdfs://localhost:8020/user/hadoop/R3/DFS/TestUpload successed. 
+2014-04-23 14:10:16,563 67366 [main] INFO  - upload /home/hadoop/Downloads/jgranderev2_thakur.pdf.gz to  hdfs://localhost:8020/user/hadoop/R3/DFS/TestUpload successed. 
+2014-04-23 14:11:26,661 137464 [Thread-20] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/R3/DFS/TestUpload/jgranderev2_thakur.pdf.gz successed. 
+2014-04-23 14:18:37,539 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 14:19:15,028 37489 [Thread-9] INFO  - delete HDFS file hdfs://localhost:8020/user/DSC_1865.JPGviber.deb successed. 
+2014-04-23 14:19:19,263 41724 [Thread-10] INFO  - delete HDFS file hdfs://localhost:8020/user/DSC_1865.JPG successed. 
+2014-04-23 14:20:41,135 123596 [Thread-24] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/R3/DFS/TestUpload/DSC_1865.JPGviber.deb successed. 
+2014-04-23 14:20:43,952 126413 [Thread-25] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/R3/DFS/TestUpload/DSC_1865.JPG successed. 
+2014-04-23 14:21:09,442 151903 [Thread-29] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/R3/DFS/TestUploadviber.deb successed. 
+2014-04-23 14:22:34,310 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 14:27:43,207 308897 [main] INFO  - upload /home/hadoop/Downloads to  hdfs://localhost:8020/user successed. 
+2014-04-23 14:28:03,572 329262 [Thread-204] INFO  - delete HDFS file hdfs://localhost:8020/user/Downloads successed. 
+2014-04-23 14:28:28,913 354603 [Thread-205] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/R3/DFS successed. 
+2014-04-23 14:32:13,365 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 14:32:15,440 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 14:32:28,189 14824 [Thread-4] INFO  - delete HDFS file hdfs://localhost:8020/user/viber.deb successed. 
+2014-04-23 14:32:44,591 31226 [main] INFO  - create directory hdfs://localhost:8020/user/hadoop/TestUploadFolder successed. 
+2014-04-23 14:34:55,030 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 14:34:55,373 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 14:35:12,644 17615 [Thread-4] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/TestUploadFolder/Downloads successed. 
+2014-04-23 14:37:14,971 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 16:08:32,302 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 17:12:23,640 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 17:17:04,553 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 17:58:36,387 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 19:09:49,187 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 19:33:54,152 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 19:35:11,640 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 19:38:31,331 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 19:40:46,543 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-23 19:48:08,956 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-24 19:05:49,791 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 19:41:31,680 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 19:42:02,814 31134 [main] INFO  - download from hdfs://localhost:8020/user/hadoop/R3/Downloads/[PRO]Viet_Dung_NGUYEN_V1.4 (1).pdf to  /home/hadoop/temp successed. 
+2014-04-25 19:57:28,569 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:00:14,830 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:02:44,069 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:14:17,419 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:14:17,419 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:17:58,227 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:21:53,331 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:22:57,510 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:24:08,281 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:24:24,241 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:27:17,425 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:27:33,687 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:36:11,114 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:37:24,881 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:49:53,323 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 20:54:53,979 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:02:50,931 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:07:09,267 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:08:42,737 93470 [main] INFO  - download from hdfs://localhost:8020/user/hadoop/R3/Downloads/PerformanceTuningUCFContentTransfer.doc to  /home/hadoop/temp successed. 
+2014-04-25 21:14:08,225 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:14:52,124 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:15:07,959 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:16:27,573 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:17:48,743 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:25:38,629 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:28:03,269 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:28:44,174 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:29:47,665 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:43:42,303 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:45:32,509 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 21:45:40,915 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 22:02:32,560 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 22:05:50,985 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 22:07:21,934 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 22:08:23,033 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 22:09:47,636 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 22:22:06,165 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 22:25:47,097 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 22:26:48,282 61185 [main] INFO  - upload /home/hadoop/Desktop/DSC_1865.JPG to  hdfs://localhost:8020/user/hadoop/TestUploadFolder successed. 
+2014-04-25 22:27:33,590 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 22:28:40,161 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 22:31:39,093 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 22:31:51,351 12258 [Thread-4] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/TestUploadFolder/ubuntu-12.04.4-desktop-i386.iso successed. 
+2014-04-25 22:36:49,438 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 22:38:01,583 72145 [main] INFO  - upload /home/hadoop/Dropbox/Administratif/Khanh CHi/thu gui monoprix.odt to  hdfs://localhost:8020/user/hadoop/TestUploadFolder successed. 
+2014-04-25 22:39:28,276 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-25 22:41:14,422 106147 [Thread-16] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/TestUploadFolder successed. 
+2014-04-25 22:41:31,472 123197 [main] INFO  - create directory hdfs://localhost:8020/user/hadoop/Test upload successed. 
+2014-04-26 12:10:09,819 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 12:10:44,675 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 12:11:10,369 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 12:14:18,411 213736 [Thread-5] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/Test upload successed. 
+2014-04-26 12:14:31,603 226928 [main] INFO  - create directory hdfs://localhost:8020/user/hadoop/R3/uploads successed. 
+2014-04-26 12:14:36,760 232085 [Thread-7] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/R3/uploads successed. 
+2014-04-26 12:14:43,901 239226 [main] INFO  - create directory hdfs://localhost:8020/user/hadoop/R3/Uploads successed. 
+2014-04-26 12:14:49,379 244704 [Thread-8] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/R3/Downloads successed. 
+2014-04-26 12:14:56,391 251716 [main] INFO  - create directory hdfs://localhost:8020/user/hadoop/R3/Downloads successed. 
+2014-04-26 12:17:31,069 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 12:20:04,155 559480 [Thread-47] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/R3/Uploads/ubuntu-12.04.4-desktop-i386.iso successed. 
+2014-04-26 17:22:37,960 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable

@@ -1,5 +1,7 @@
 package org.esiag.isidis.dast.hdfs.ui;
 
+import java.io.IOException;
+
 import org.apache.hadoop.fs.FileStatus;
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.dialogs.InputDialog;
@@ -34,7 +36,12 @@ public class CreateAction extends Action {
 		              "",
 		              null);
 		if (dialog.open() == InputDialog.OK) {
-			dfm.mkdirs(MyHDFSClient.getInstance().getFs(),f.getPath().toString()+"/"+dialog.getValue());
+			try {
+				dfm.mkdirs(f.getPath().toString()+"/"+dialog.getValue());
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 		actionGroup.refresh();
 	}

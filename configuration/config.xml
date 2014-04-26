@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<CONFIG>
-  <VALUE>
-    <locationName>hdfs</locationName>
-    <host>localhost</host>
-    <port>8020</port>
-  </VALUE>
-</CONFIG>
