@@ -63,4 +63,9 @@ public abstract class RemoteIteratorAbstract<E> implements RemoteIterator<E>{
 			return false;
 		}
 	}
+	
+	public long getFileSize(){
+		return this.fileSize;
+		
+	}
 }

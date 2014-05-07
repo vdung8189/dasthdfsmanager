@@ -9,7 +9,6 @@ public interface IBigFileManager extends IDistributedFileManager{
 	 * Reading the file from HDFS with the path in param
 	 * @param fileLocation the path in String of the file you want to read from HDFS
 	 * @return RemoteIterator which can be used to iterate between file's parts
-	 * 
 	 */
 	RemoteIterator<byte[]> readFile(String fileLocation);
 	
@@ -21,5 +20,8 @@ public interface IBigFileManager extends IDistributedFileManager{
 	 * @return RemoteIterator<Void> used to save all file's blocks
 	 */
 	RemoteIterator<Void> writeFile(File file, String destinationFileLocation);
-			
+	
+//	int getWriteStatus();
+//	int getReadStatus();
+	
 }

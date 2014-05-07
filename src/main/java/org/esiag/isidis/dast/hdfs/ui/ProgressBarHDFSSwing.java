@@ -12,7 +12,12 @@ import javax.swing.JPanel;
 import javax.swing.JProgressBar;
 
 import org.esiag.isidis.dast.hdfs.log.Log;
-
+/**
+ * Progress bar windows for uploading and downloading file 
+ * 
+ * @author vietdung
+ *
+ */
 public class ProgressBarHDFSSwing extends JFrame {
 	private JProgressBar progressBar = new JProgressBar();
 	private JButton okButton = new JButton();
@@ -26,7 +31,9 @@ public class ProgressBarHDFSSwing extends JFrame {
 		Log.init("configuration/log4j.properties", "log/log.txt");
 		init();
 	}
-	
+	/**
+	 * initiate progress bar windows
+	 */
 	private void init() {
 		this.setTitle("[DAST v2.0] "+title);
 		setPreferredSize(new Dimension(700, 150));
@@ -38,7 +45,7 @@ public class ProgressBarHDFSSwing extends JFrame {
 		progressBar.setMinimum(0);
 		progressBar.setMaximum(100);
 		progressBar.setPreferredSize(new Dimension(650,30));
-		
+		progressBar.setStringPainted(true);
 		JPanel panel1 = new JPanel();
 		JPanel panel2 = new JPanel();
 		JPanel panel3 = new JPanel();
@@ -75,6 +82,7 @@ public class ProgressBarHDFSSwing extends JFrame {
 	
 	public void setPercentage(int percentage) {
 		progressBar.setValue(percentage);
+		progressBar.setString(Integer.toString(percentage) + "%");
 	}
 	
 	public void finish(String message) {

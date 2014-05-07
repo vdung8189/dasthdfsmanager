@@ -466,3 +466,218 @@
 2014-04-26 12:17:31,069 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 2014-04-26 12:20:04,155 559480 [Thread-47] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/R3/Uploads/ubuntu-12.04.4-desktop-i386.iso successed. 
 2014-04-26 17:22:37,960 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 17:24:56,401 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 17:31:30,906 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 17:31:47,991 17085 [Thread-4] INFO  - delete HDFS file hdfs://localhost:8020/user/hadoop/R3/ubuntu-12.04.4-desktop-i386.iso successed. 
+2014-04-26 18:44:04,534 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 18:47:27,136 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 18:48:38,639 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 18:49:21,812 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 18:51:56,957 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 18:57:31,216 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 19:11:56,766 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 19:12:34,853 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 19:13:06,059 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 19:14:08,364 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 19:18:23,880 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 19:20:47,214 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 19:22:19,675 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 20:11:19,755 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 20:12:46,923 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 20:17:51,281 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 20:18:24,820 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 20:22:42,985 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 20:22:52,485 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 20:23:41,810 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 20:24:57,177 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 20:27:39,852 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 20:34:11,731 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 21:16:23,184 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-26 22:14:19,050 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-27 17:06:38,522 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-27 17:07:12,742 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-29 12:00:15,329 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-29 12:00:28,509 13180 [main] INFO  - create directory hdfs://localhost:8020/junit/R3 successed. 
+2014-04-29 12:00:34,550 19221 [Thread-4] INFO  - delete HDFS file hdfs://localhost:8020/junit/R3 successed. 
+2014-04-29 12:00:54,235 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-29 12:01:13,935 19700 [main] INFO  - create directory hdfs://localhost:8020/junit/R3 successed. 
+2014-04-29 12:09:03,358 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-29 12:12:42,640 219282 [Thread-27] INFO  - delete HDFS file hdfs://localhost:8020/junit/ubuntu-14.04-desktop-i386.iso successed. 
+2014-04-29 16:50:31,672 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-29 16:50:44,162 12491 [Thread-4] INFO  - delete HDFS file hdfs://localhost:8020/junit/R3/ubuntu-14.04-desktop-i386.iso successed. 
+2014-04-29 16:58:54,541 502870 [Thread-24] INFO  - delete HDFS file hdfs://localhost:8020/junit/R3/ubuntu-14.04-desktop-i386.iso successed. 
+2014-04-30 17:44:41,097 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-30 17:45:57,526 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-30 17:54:47,228 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-30 17:56:29,725 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-30 18:02:49,386 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-30 18:09:26,434 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-30 18:36:27,579 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-30 18:42:45,952 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-30 18:51:40,223 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-30 23:53:18,601 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-01 12:13:17,187 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-02 14:12:19,963 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-02 15:57:18,439 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-02 16:09:16,054 717615 [Thread-6] INFO  - delete HDFS file hdfs://localhost:8020/junit/R3/200706hpd.txt successed. 
+2014-05-02 16:09:18,713 720274 [Thread-7] INFO  - delete HDFS file hdfs://localhost:8020/junit/R3/ubuntu-14.04-desktop-i386.iso successed. 
+2014-05-02 16:12:44,365 925926 [main] INFO  - upload /usr/share/applications/eclipse.desktop to  hdfs://localhost:8020/junit/R3 successed. 
+2014-05-02 16:25:00,699 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-06 14:31:11,234 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-06 14:49:35,924 1    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-06 14:50:02,278 26355 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 0 time(s); maxRetries=45
+2014-05-06 14:50:22,292 46369 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 1 time(s); maxRetries=45
+2014-05-06 14:50:42,297 66374 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 2 time(s); maxRetries=45
+2014-05-06 14:51:02,310 86387 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 3 time(s); maxRetries=45
+2014-05-06 14:51:22,320 106397 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 4 time(s); maxRetries=45
+2014-05-06 14:51:42,331 126408 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 5 time(s); maxRetries=45
+2014-05-06 14:52:02,335 146412 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 6 time(s); maxRetries=45
+2014-05-06 14:52:22,357 166434 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 7 time(s); maxRetries=45
+2014-05-06 14:52:42,375 186452 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 8 time(s); maxRetries=45
+2014-05-06 14:53:02,393 206470 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 9 time(s); maxRetries=45
+2014-05-06 14:53:22,403 226480 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 10 time(s); maxRetries=45
+2014-05-06 14:53:42,419 246496 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 11 time(s); maxRetries=45
+2014-05-06 14:54:02,438 266515 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 12 time(s); maxRetries=45
+2014-05-06 14:54:22,459 286536 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 13 time(s); maxRetries=45
+2014-05-06 14:54:42,478 306555 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 14 time(s); maxRetries=45
+2014-05-06 14:55:02,493 326570 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 15 time(s); maxRetries=45
+2014-05-06 14:55:22,506 346583 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 16 time(s); maxRetries=45
+2014-05-06 14:55:42,526 366603 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 17 time(s); maxRetries=45
+2014-05-06 14:56:02,539 386616 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 18 time(s); maxRetries=45
+2014-05-06 14:56:22,558 406635 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 19 time(s); maxRetries=45
+2014-05-06 14:56:42,576 426653 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 20 time(s); maxRetries=45
+2014-05-06 14:57:02,597 446674 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 21 time(s); maxRetries=45
+2014-05-06 14:57:17,028 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-06 14:57:22,610 466687 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 22 time(s); maxRetries=45
+2014-05-06 14:57:42,626 486703 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 23 time(s); maxRetries=45
+2014-05-06 14:57:43,710 26682 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 0 time(s); maxRetries=45
+2014-05-06 14:58:02,647 506724 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 24 time(s); maxRetries=45
+2014-05-06 14:58:03,731 46703 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 1 time(s); maxRetries=45
+2014-05-06 14:58:22,652 526729 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 25 time(s); maxRetries=45
+2014-05-06 14:58:23,743 66715 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 2 time(s); maxRetries=45
+2014-05-06 14:58:42,660 546737 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 26 time(s); maxRetries=45
+2014-05-06 14:58:43,762 86734 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 3 time(s); maxRetries=45
+2014-05-06 14:59:02,662 566739 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 27 time(s); maxRetries=45
+2014-05-06 14:59:03,783 106755 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 4 time(s); maxRetries=45
+2014-05-06 14:59:22,683 586760 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 28 time(s); maxRetries=45
+2014-05-06 14:59:23,803 126775 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 5 time(s); maxRetries=45
+2014-05-06 14:59:42,704 606781 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 29 time(s); maxRetries=45
+2014-05-06 14:59:43,821 146793 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 6 time(s); maxRetries=45
+2014-05-06 15:00:02,725 626802 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 30 time(s); maxRetries=45
+2014-05-06 15:00:03,843 166815 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 7 time(s); maxRetries=45
+2014-05-06 15:00:20,226 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-06 15:00:22,744 646821 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 31 time(s); maxRetries=45
+2014-05-06 15:00:23,864 186836 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 8 time(s); maxRetries=45
+2014-05-06 15:00:42,762 666839 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 32 time(s); maxRetries=45
+2014-05-06 15:00:43,881 206853 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 9 time(s); maxRetries=45
+2014-05-06 15:00:46,762 26536 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 0 time(s); maxRetries=45
+2014-05-06 15:01:02,783 686860 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 33 time(s); maxRetries=45
+2014-05-06 15:01:03,902 226874 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 10 time(s); maxRetries=45
+2014-05-06 15:01:06,784 46558 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 1 time(s); maxRetries=45
+2014-05-06 15:01:22,801 706878 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 34 time(s); maxRetries=45
+2014-05-06 15:01:23,907 246879 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 11 time(s); maxRetries=45
+2014-05-06 15:01:26,802 66576 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 2 time(s); maxRetries=45
+2014-05-06 15:01:42,810 726887 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 35 time(s); maxRetries=45
+2014-05-06 15:01:43,912 266884 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 12 time(s); maxRetries=45
+2014-05-06 15:01:46,822 86596 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 3 time(s); maxRetries=45
+2014-05-06 15:02:02,832 746909 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 36 time(s); maxRetries=45
+2014-05-06 15:02:03,924 286896 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 13 time(s); maxRetries=45
+2014-05-06 15:02:06,843 106617 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 4 time(s); maxRetries=45
+2014-05-06 15:02:22,853 766930 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 37 time(s); maxRetries=45
+2014-05-06 15:02:23,946 306918 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 14 time(s); maxRetries=45
+2014-05-06 15:02:26,860 126634 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 5 time(s); maxRetries=45
+2014-05-06 15:02:42,869 786946 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 38 time(s); maxRetries=45
+2014-05-06 15:02:43,967 326939 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 15 time(s); maxRetries=45
+2014-05-06 15:02:46,882 146656 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 6 time(s); maxRetries=45
+2014-05-06 15:03:02,888 806965 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 39 time(s); maxRetries=45
+2014-05-06 15:03:03,984 346956 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 16 time(s); maxRetries=45
+2014-05-06 15:03:06,896 166670 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 7 time(s); maxRetries=45
+2014-05-06 15:03:22,906 826983 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 40 time(s); maxRetries=45
+2014-05-06 15:03:24,002 366974 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 17 time(s); maxRetries=45
+2014-05-06 15:03:26,916 186690 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 8 time(s); maxRetries=45
+2014-05-06 15:03:42,908 846985 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 41 time(s); maxRetries=45
+2014-05-06 15:03:44,017 386989 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 18 time(s); maxRetries=45
+2014-05-06 15:03:46,937 206711 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 9 time(s); maxRetries=45
+2014-05-06 15:04:02,912 866989 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 42 time(s); maxRetries=45
+2014-05-06 15:04:04,029 407001 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 19 time(s); maxRetries=45
+2014-05-06 15:04:06,958 226732 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 10 time(s); maxRetries=45
+2014-05-06 15:04:22,925 887002 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 43 time(s); maxRetries=45
+2014-05-06 15:04:24,048 427020 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 20 time(s); maxRetries=45
+2014-05-06 15:04:26,964 246738 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 11 time(s); maxRetries=45
+2014-05-06 15:04:42,946 907023 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:8020. Already tried 44 time(s); maxRetries=45
+2014-05-06 15:04:44,059 447031 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 21 time(s); maxRetries=45
+2014-05-06 15:04:46,979 266753 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 12 time(s); maxRetries=45
+2014-05-06 15:05:04,080 467052 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 22 time(s); maxRetries=45
+2014-05-06 15:05:07,000 286774 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 13 time(s); maxRetries=45
+2014-05-06 15:05:24,089 487061 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 23 time(s); maxRetries=45
+2014-05-06 15:05:27,018 306792 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 14 time(s); maxRetries=45
+2014-05-06 15:05:44,108 507080 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 24 time(s); maxRetries=45
+2014-05-06 15:05:47,031 326805 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 15 time(s); maxRetries=45
+2014-05-06 15:06:04,124 527096 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 25 time(s); maxRetries=45
+2014-05-06 15:06:07,050 346824 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 16 time(s); maxRetries=45
+2014-05-06 15:06:24,145 547117 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 26 time(s); maxRetries=45
+2014-05-06 15:06:27,064 366838 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 17 time(s); maxRetries=45
+2014-05-06 15:06:44,165 567137 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 27 time(s); maxRetries=45
+2014-05-06 15:06:47,082 386856 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 18 time(s); maxRetries=45
+2014-05-06 15:07:04,186 587158 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 28 time(s); maxRetries=45
+2014-05-06 15:07:07,096 406870 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 19 time(s); maxRetries=45
+2014-05-06 15:07:24,206 607178 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 29 time(s); maxRetries=45
+2014-05-06 15:07:27,113 426887 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 20 time(s); maxRetries=45
+2014-05-06 15:07:44,210 627182 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 30 time(s); maxRetries=45
+2014-05-06 15:07:47,129 446903 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 21 time(s); maxRetries=45
+2014-05-06 15:08:04,223 647195 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 31 time(s); maxRetries=45
+2014-05-06 15:08:07,150 466924 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 22 time(s); maxRetries=45
+2014-05-06 15:08:24,244 667216 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 32 time(s); maxRetries=45
+2014-05-06 15:08:27,161 486935 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 23 time(s); maxRetries=45
+2014-05-06 15:08:44,266 687238 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 33 time(s); maxRetries=45
+2014-05-06 15:08:47,182 506956 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 24 time(s); maxRetries=45
+2014-05-06 15:09:04,284 707256 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 34 time(s); maxRetries=45
+2014-05-06 15:09:07,192 526966 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 25 time(s); maxRetries=45
+2014-05-06 15:09:24,297 727269 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 35 time(s); maxRetries=45
+2014-05-06 15:09:27,202 546976 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 26 time(s); maxRetries=45
+2014-05-06 15:09:44,302 747274 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 36 time(s); maxRetries=45
+2014-05-06 15:09:47,217 566991 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 27 time(s); maxRetries=45
+2014-05-06 15:10:04,318 767290 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 37 time(s); maxRetries=45
+2014-05-06 15:10:07,226 587000 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 28 time(s); maxRetries=45
+2014-05-06 15:10:24,336 787308 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 38 time(s); maxRetries=45
+2014-05-06 15:10:27,229 607003 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 29 time(s); maxRetries=45
+2014-05-06 15:10:44,347 807319 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 39 time(s); maxRetries=45
+2014-05-06 15:10:47,251 627025 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 30 time(s); maxRetries=45
+2014-05-06 15:11:04,367 827339 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 40 time(s); maxRetries=45
+2014-05-06 15:11:07,272 647046 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 31 time(s); maxRetries=45
+2014-05-06 15:11:24,385 847357 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 41 time(s); maxRetries=45
+2014-05-06 15:11:27,294 667068 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 32 time(s); maxRetries=45
+2014-05-06 15:11:44,394 867366 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 42 time(s); maxRetries=45
+2014-05-06 15:11:47,315 687089 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 33 time(s); maxRetries=45
+2014-05-06 15:12:04,413 887385 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 43 time(s); maxRetries=45
+2014-05-06 15:12:07,320 707094 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 34 time(s); maxRetries=45
+2014-05-06 15:12:24,435 907407 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 44 time(s); maxRetries=45
+2014-05-06 15:12:27,340 727114 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 35 time(s); maxRetries=45
+2014-05-06 15:12:47,346 747120 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 36 time(s); maxRetries=45
+2014-05-06 15:13:07,363 767137 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 37 time(s); maxRetries=45
+2014-05-06 15:13:27,379 787153 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 38 time(s); maxRetries=45
+2014-05-06 15:13:47,390 807164 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 39 time(s); maxRetries=45
+2014-05-06 15:14:07,403 827177 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 40 time(s); maxRetries=45
+2014-05-06 15:14:27,424 847198 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 41 time(s); maxRetries=45
+2014-05-06 15:14:47,441 867215 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 42 time(s); maxRetries=45
+2014-05-06 15:15:07,462 887236 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 43 time(s); maxRetries=45
+2014-05-06 15:15:27,482 907256 [main] INFO  - Retrying connect to server: 192.168.0.84/192.168.0.84:9000. Already tried 44 time(s); maxRetries=45
+2014-05-06 16:20:58,060 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-06 16:21:49,347 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-06 16:22:15,982 26635 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 0 time(s); maxRetries=45
+2014-05-06 16:22:36,003 46656 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 1 time(s); maxRetries=45
+2014-05-06 16:22:56,020 66673 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 2 time(s); maxRetries=45
+2014-05-06 16:23:16,042 86695 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 3 time(s); maxRetries=45
+2014-05-06 16:23:36,048 106701 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 4 time(s); maxRetries=45
+2014-05-06 16:23:56,062 126715 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 5 time(s); maxRetries=45
+2014-05-06 16:24:16,072 146725 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 6 time(s); maxRetries=45
+2014-05-06 16:24:36,077 166730 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 7 time(s); maxRetries=45
+2014-05-06 16:24:56,083 186736 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 8 time(s); maxRetries=45
+2014-05-06 16:25:16,085 206738 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 9 time(s); maxRetries=45
+2014-05-06 16:25:36,101 226754 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 10 time(s); maxRetries=45
+2014-05-06 16:25:56,114 246767 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 11 time(s); maxRetries=45
+2014-05-06 16:26:16,133 266786 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 12 time(s); maxRetries=45
+2014-05-06 16:26:36,154 286807 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 13 time(s); maxRetries=45
+2014-05-06 16:26:56,164 306817 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 14 time(s); maxRetries=45
+2014-05-06 16:27:16,180 326833 [main] INFO  - Retrying connect to server: 198.168.0.84/198.168.0.84:8020. Already tried 15 time(s); maxRetries=45
+2014-05-07 18:36:23,911 0    [main] WARN  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable

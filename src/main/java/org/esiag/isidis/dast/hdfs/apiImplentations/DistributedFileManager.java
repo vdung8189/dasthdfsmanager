@@ -104,8 +104,10 @@ public class DistributedFileManager implements IDistributedFileManager {
 	
 	
 	/**
-	 * List files
+	 * This method list all files belonging to the given path
+	 * @param path where you want to list files
 	 */
+	
 	public void listFile(String path) {
 
 		Path dst = null;
@@ -136,6 +138,7 @@ public class DistributedFileManager implements IDistributedFileManager {
 		} catch (Exception e) {
 			Log.logger.error("list files of " + path + " failed :"+e.toString());
 		} finally {
+			//TODO
 		}
 	}
 

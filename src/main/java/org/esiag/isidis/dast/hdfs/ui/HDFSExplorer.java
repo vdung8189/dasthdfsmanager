@@ -30,6 +30,7 @@ import org.esiag.isidis.dast.hdfs.utils.MyHDFSClient;
  * @category GUI
  */
 public class HDFSExplorer extends ApplicationWindow {
+	
 	private SashForm sash = null ;
 	private TreeViewer tree = null;
 	private TableViewer table = null;

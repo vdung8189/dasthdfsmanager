@@ -6,12 +6,23 @@
 <configuration>
   <property>
     <name>fs.defaultFS</name>
-    <value>hdfs://localhost:8020</value>
+    <value>hdfs://127.0.0.1:8020/</value>
   </property>
 
   <property>
     <name>hadoop.tmp.dir</name>
     <value>/home/hadoop/Training/tmp</value>
   </property>
+  
+	<property>
+   		<name>fs.file.impl</name>
+   		<value>org.apache.hadoop.fs.LocalFileSystem</value>
+   		<description>The FileSystem for file: uris.</description>
+	</property>
 
+	<property>
+   		<name>fs.hdfs.impl</name>
+   		<value>org.apache.hadoop.hdfs.DistributedFileSystem</value>
+   		<description>The FileSystem for hdfs: uris.</description>
+	</property>
 </configuration>

@@ -1,14 +1,12 @@
 package org.esiag.isidis.dast.hdfs.utils;
 
 import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
+import java.security.PrivilegedAction;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.hdfs.DFSClient;
-import org.esiag.isidis.dast.hdfs.log.Log;
+import org.apache.hadoop.security.UserGroupInformation;
 /**
  * Give the FileSystem instance in order to manipulate file in the hdfs
  * @author vietdung.nguyen@orange.fr
@@ -22,12 +20,40 @@ public class MyHDFSClient{
 	
 	
 	private MyHDFSClient(){
+		/*UserGroupInformation ugi = UserGroupInformation.createRemoteUser("vietdung");
+		ugi.doAs(new PrivilegedAction<Void>() {
 
+			@Override
+			public Void run() {
+				
+				Path path = new Path("./configuration/core-site.xml");
+				//System.out.println(path.toString());
+				conf = new Configuration();
+				
+				conf.addResource(path);
+				System.out.println(conf.getStringCollection("fs.defaultFS"));
+				try {	
+					
+					fs = FileSystem.get(conf);
+					
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+				
+				return null;
+			}
+		});*/
+	
+		Path path = new Path("./configuration/core-site.xml");
+		//System.out.println(path.toString());
 		conf = new Configuration();
-		conf.addResource(new Path("./configuration/core-site.xml"));
 		
-		try {		
+		conf.addResource(path);
+		System.out.println(conf.getStringCollection("fs.defaultFS"));
+		try {	
+			
 			fs = FileSystem.get(conf);
+			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

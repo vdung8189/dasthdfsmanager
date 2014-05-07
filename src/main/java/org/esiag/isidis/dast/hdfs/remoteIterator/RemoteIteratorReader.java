@@ -26,7 +26,6 @@ public class RemoteIteratorReader extends RemoteIteratorAbstract<byte[]> {
 	
 		try {
 			this.fileSize = fs.getFileStatus(filePath).getLen();
-			System.out.println(fileSize);
 			//calculate number of blocks
 			this.calculNumberOfBlocks();
 			System.out.println();
@@ -49,7 +48,7 @@ public class RemoteIteratorReader extends RemoteIteratorAbstract<byte[]> {
 		int blockSizeInByte = (int) BLOCK_SIZE_IN_BYTE;
 		
 		// if we get the lastBlock then we instantiate an table of byte correspond to its size
-		if ((lastBlockSize != 0) && (this.actualPosition == numberOfBlocks-1)) 
+		if ((lastBlockSize != 0) && (this.actualPosition == (numberOfBlocks-1))) 
 			blockSizeInByte = (int) lastBlockSize;
 		
 		this.bytes = new byte[blockSizeInByte];
